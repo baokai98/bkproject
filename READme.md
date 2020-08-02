@@ -3,6 +3,6 @@
 ./project
 #####
 第二次作业分别是：
-hoemwork1
-hoemwork2
+hoemwork1，
+hoemwork2，
 hoemwork2_xuzhu
