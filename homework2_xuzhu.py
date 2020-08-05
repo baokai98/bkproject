@@ -9,6 +9,8 @@ class Xuzhu(Tong_lao):
     # 定义read方法
     def read(self):
         print('虚竹：罪过罪过，你们别打了')
+        super().fight_zms(self.hp,self.pow)
+if __name__ == '__main__'
 # 给xuzhu实例化
 xz = Xuzhu(500,100)
 # 调用xuzhu的read方法
