@@ -44,19 +44,19 @@ class Tong_lao:
             print('天山童姥方输了：贱人，没想到多年不见你这么厉害!')
         else:
             print('平局')
-if __name__ == '__main__'
-# 天山童姥实例化，传入tl_hp,tl_pow参数
-tl = Tong_lao(1000,200)
-print("*"*10,'看到无崖子',"*"*10)
-# 调用Tong_lao的see_people方法，传入name参数
-tl.see_people('无崖子')
-print("*"*10,'遇到敌人',"*"*10)
-# 调用Tong_lao的天山折梅手方法，给敌人的dr_hp,dr_pow传递参数
-tl.fight_zms(500,200)
-# 打到后面来了个蒙面高手
-print("*"*10,'来了个蒙面高手',"*"*10)
-# 给蒙面高手传递参数
-tl.fight_zms(50000,200)
+if __name__ == '__main__':
+    # 天山童姥实例化，传入tl_hp,tl_pow参数
+    tl = Tong_lao(1000,200)
+    print("*"*10,'看到无崖子',"*"*10)
+    # 调用Tong_lao的see_people方法，传入name参数
+    tl.see_people('无崖子')
+    print("*"*10,'遇到敌人',"*"*10)
+    # 调用Tong_lao的天山折梅手方法，给敌人的dr_hp,dr_pow传递参数
+    tl.fight_zms(500,200)
+    # 打到后面来了个蒙面高手
+    print("*"*10,'来了个蒙面高手',"*"*10)
+    # 给蒙面高手传递参数
+    tl.fight_zms(50000,200)
 
 
 
