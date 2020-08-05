@@ -44,6 +44,7 @@ class Tong_lao:
             print('天山童姥方输了：贱人，没想到多年不见你这么厉害!')
         else:
             print('平局')
+if __name__ == '__main__'
 # 天山童姥实例化，传入tl_hp,tl_pow参数
 tl = Tong_lao(1000,200)
 print("*"*10,'看到无崖子',"*"*10)
