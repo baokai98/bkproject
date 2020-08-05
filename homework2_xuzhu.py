@@ -10,11 +10,11 @@ class Xuzhu(Tong_lao):
     def read(self):
         print('虚竹：罪过罪过，你们别打了')
         super().fight_zms(self.tl_hp,self.tl_pow)
-if __name__ == '__main__'
-# 给xuzhu实例化
-xz = Xuzhu(500,100)
-# 调用xuzhu的read方法
-xz.read()
-print("*"*10,'虚竹觉醒，放下屠刀立地成佛，参加战斗',"*"*10)
-# 虚竹使用天山折梅手，给敌人传递参数
-xz.fight_zms(1000,200)
+if __name__ == '__main__':
+    # 给xuzhu实例化
+    xz = Xuzhu(500,100)
+    # 调用xuzhu的read方法
+    xz.read()
+    print("*"*10,'虚竹觉醒，放下屠刀立地成佛，参加战斗',"*"*10)
+    # 虚竹使用天山折梅手，给敌人传递参数
+    xz.fight_zms(1000,200)
