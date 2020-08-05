@@ -44,6 +44,7 @@ class Tong_lao:
             print('天山童姥方输了：贱人，没想到多年不见你这么厉害!')
         else:
             print('平局')
+    # 使用该方法将下面的代码隔开，防止虚竹调研Tonglao模块时产生冲突
 if __name__ == '__main__':
     # 天山童姥实例化，传入tl_hp,tl_pow参数
     tl = Tong_lao(1000,200)
