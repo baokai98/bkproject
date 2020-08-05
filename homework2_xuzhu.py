@@ -9,7 +9,7 @@ class Xuzhu(Tong_lao):
     # 定义read方法
     def read(self):
         print('虚竹：罪过罪过，你们别打了')
-        super().fight_zms(self.hp,self.pow)
+        super().fight_zms(self.tl_hp,self.tl_pow)
 if __name__ == '__main__'
 # 给xuzhu实例化
 xz = Xuzhu(500,100)
